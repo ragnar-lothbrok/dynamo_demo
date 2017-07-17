@@ -1,0 +1,14 @@
+Windows : 
+
+D:\Users\raghugupta\Downloads\dynamodb_local_latest>java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
+
+Console :
+Initializing DynamoDB Local with the following configuration:
+Port:   8000
+InMemory:       false
+DbPath: null
+SharedDb:       true
+shouldDelayTransientStatuses:   false
+CorsParams:     *
+
+That means local dynamo database is up and running.
